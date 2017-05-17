@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'activerecord-redshift'
-  s.version = '4.0.0'
+  s.version = '5.0.0'
   s.summary = 'Amazon Redshift Meta Adapter for Rails ActiveRecord'
   s.license = 'MIT'
 
@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/bricolages/activerecord-redshift'
 
   s.files = Dir.glob(['LICENSE', 'README.md'])
-  s.add_dependency 'activerecord4-redshift-adapter'
+  s.add_dependency 'activerecord5-redshift-adapter'
 end
