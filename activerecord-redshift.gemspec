@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/bricolages/activerecord-redshift'
 
   s.files = Dir.glob(['LICENSE', 'README.md'])
-  s.add_dependency 'activerecord5-redshift-adapter'
+  s.add_dependency 'activerecord6-redshift-adapter'
 end
